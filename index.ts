@@ -42,4 +42,4 @@ console.log(m2);
 const makeTuple = <X, Y>(x: X, y: Y): [X, Y] => [x, y];
 
 const m3 = makeTuple(false, 123);
-console.log(m3);
+console.log({ m3 });
